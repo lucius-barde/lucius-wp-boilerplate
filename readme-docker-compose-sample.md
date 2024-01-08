@@ -20,7 +20,7 @@ services:
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
     volumes:
-      - /home/lucien/www/wp-docker3/public:/var/www/html
+      - /home/your-name/www/wp-docker3/public:/var/www/html
 
   db:
     image: mysql:5.7
