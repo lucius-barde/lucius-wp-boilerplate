@@ -1,3 +1,7 @@
-Lucius WP Boilerplate
+# Lucius WP Boilerplate
+### Specific instructions for this theme
 
-- launch "npm start" to start "gulp watch", then the .less modification will trigger the compilation to .css.
+- Requirements: WordPress, NPM
+
+- This theme auto-compiles the .css files: never modify them, only modify the .less files. 
+- To launch the  auto-compiler Gulp: launch "npm start" in command-line, this will start the command "gulp watch", then saving the .less files will trigger the compilation to .css.
