@@ -1,0 +1,12 @@
+{
+    "name": "my-theme",
+    "version": "1.0.0",
+    "description": "Empty WordPress theme with Gulp and Less CSS",
+    "scripts": {
+      "start": "gulp"
+    },
+    "devDependencies": {
+      "gulp": "^4.0.2",
+      "gulp-less": "^5.0.0"
+    }
+  }
