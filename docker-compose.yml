@@ -1,10 +1,3 @@
-# Lucius WP Boilerplate
-### Docker instructions
-
-This template could be added to a WordPress Docker-compose container.
-To proceed, use this Docker-compose template, which will add the WordPress directory in the subdirectory of the docker-compose file, and not in some obscure temporary location.
-
-
 version: '3.1'
 
 services:
@@ -20,7 +13,7 @@ services:
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
     volumes:
-      - /home/your-name/www/wp-docker3/public:/var/www/html
+      - /home/lucien/www/lucius-wp-boilerplate/public:/var/www/html
 
   db:
     image: mysql:5.7
